@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  box-sizing: border-box;
+
+}
+.login-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bank-title {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submit-area{
+  margin-top: 40px;
+  width:50%;
+}
+#transaction-area {
+  display:block;
+  padding-top: 100px ;
+}
+.deposit{
+  background: slateblue;
+}
+.withdraw{
+  background: lightsalmon;
+}
+.balance{
+  background: orange;
+}
+.status{
+  border-radius: 10px;
+  margin:0 20px;
+  padding:20px;
+  color: #fff;
+
+}
+
+
+@media only screen and (max-width:600px) {
+  body {
+    padding: 20px;
+  }
+  .submit-area{
+    width: 100%;
+  }
+  
+}
+/* @media only screen and (max-width:1000px) {
+  .submit-area{
+    width: 80%;
+  }
+  
+} */
